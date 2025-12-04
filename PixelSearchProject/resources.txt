@@ -1,0 +1,40 @@
+1.
+Network Software Engineer Contractor
+Major 5G Telecom Infrastructure Industry Client
+- Placed #1 @ company-wide Hackathon, created a custom GPT to automate data cleaning, parsing, and analysis.
+- Designed Python tools that parse 10,000 network configuration files, cutting other processing tools by 70%.
+- Analyzed telecom parameters (e.g., NRCELL, cellBwpList) to support internal data of over 7,000 IDs.
+- Built an interactive algorithm that displays over 100+ potential network sites to discover over 20+ dead zones.
+- View some of the ReactJS/UI friendly tools: justinangara.github.io/xml-parser/
+
+2.
+AI and Prototyping Engineer, Innovation Fellowship
+UW Tech Exploration Lab
+- Planned AR/CV stacks (OpenCV & Unity) for vehicle condition detection to optimize business workflows.
+- Conducted user interviews and mapped the rental workflow to validate the demand for AR conditions.
+- Built low-fidelity AI-assisted AR check-in flow demos and tested use cases for precise damaged spotting.
+- Delivered final demo + memo evaluating options (i.e., partners/departments) to obtain potential partnerships.
+
+3.
+Front-End Software Engineering Internship
+Comet
+- Selected as Intern of the Week (Top 7% in my cohort) for initiative during the software delivery cycle.
+- Contributed to 5+ projects across engineering, business design, and marketing, reaching over 500 users.
+- Engineered core-functionality improvements that decreased runtime load by 28% via optimized function calls.
+- View Award: linkedin.com/embed/feed/update/urn:li:share:6995837399649988609 
+
+1.
+Network Software Engineer Contractor
+Major 5G Telecom Infrastructure Industry Client
+- Placed #1 @ company-wide Hackathon, created a custom GPT to automate data cleaning, parsing, and analysis.
+- Designed Python tools that parse 10,000 network configuration files, cutting other processing tools by 70%.
+- Analyzed telecom parameters (e.g., NRCELL, cellBwpList) to support internal data of over 7,000 IDs.
+- Built an interactive algorithm that displays over 100+ potential network sites to discover over 20+ dead zones.
+- View some of the ReactJS/UI friendly tools: justinangara.github.io/xml-parser/
+
+2.
+Security Engineer - Innovation & Venture Fellowship
+UW Tech Exploration Lab
+- Detected process spawns, DLL injections, and privilege escalation attempts, replicating EDR capabilities in C.
+- Implemented a memory inspection module, capturing 10,000+ read/write events per session with Volatility.
+- Merged Sysinternals API & event tracing hooks, enabling correlation of registry and file system activity.
