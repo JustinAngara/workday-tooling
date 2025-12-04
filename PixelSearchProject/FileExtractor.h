@@ -7,6 +7,7 @@ public:
 	FileExtractor(std::string fileName)
 		: m_fileName(fileName) {}
 	bool init(); 
+	void parseTable(std::ifstream& file);
 private:
 	std::string m_fileName;
 	

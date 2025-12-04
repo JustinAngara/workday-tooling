@@ -10,6 +10,7 @@ public:
 		std::string company;
 		std::string description;
 	};
+
 	void appendTable(Table t);
 	std::optional<Table> getTable();
 private:
