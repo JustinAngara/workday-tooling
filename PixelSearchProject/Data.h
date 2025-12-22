@@ -13,6 +13,7 @@ public:
 
 	void appendTable(Table t);
 	std::optional<Table> getTable();
+	
 private:
 	int m_selectedIndex{ 0 };
 	std::vector<Table> m_dataTables;

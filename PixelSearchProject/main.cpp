@@ -18,7 +18,7 @@
 */
 
 int main(int argc, char *argv[]) {
-    std::future<void> future = std::async(std::launch::async, 
+    std::future<void> future = std::async(std::launch::async,
         []() {
             // init vars
             std::string fName{ "resources.txt" };
@@ -28,7 +28,6 @@ int main(int argc, char *argv[]) {
             // start keylistener
         }
     );
-    
 
 
     QApplication app(argc, argv);
