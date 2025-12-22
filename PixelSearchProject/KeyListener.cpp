@@ -109,7 +109,7 @@ void KeyListener::runCopyPaste(int vk_code) {
 }
 
 void KeyListener::copyToClipboardAndPaste(const std::string& text) {
-    // 1) Put text on clipboard
+
     if (!OpenClipboard(nullptr)) {
         return;
     }
