@@ -2,14 +2,10 @@
 #include "Data.h"
 #include <fstream>
 #include <string>
-#include <iostream>
-#include <algorithm>
-#include <cctype>
+
 
 
 bool FileExtractor::init() {
-
-    
     std::ifstream file(m_fileName);
     if (file.is_open()) {
         parseFile(file);

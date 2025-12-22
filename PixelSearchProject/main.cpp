@@ -1,9 +1,9 @@
 #include <string>
 #include <future>
 #include "FileExtractor.h"
+#include "KeyListener.h"
 #include "PixelSearchProject.h"
-#include <QtWidgets/QApplication>
-
+#include <iostream>
 
 /*
 * The key '*' will cycle through these data tables
@@ -16,22 +16,23 @@
 *	7, 8, 9 | 3rd position data entry
 * 
 */
+int main(int argc, char* argv[]) {
+    std::string fName{ "resources.txt" };
 
-int main(int argc, char *argv[]) {
-    std::future<void> future = std::async(std::launch::async,
-        []() {
-            // init vars
-            std::string fName{ "resources.txt" };
-            FileExtractor fe{ fName };
-            fe.init();
+    FileExtractor fe{ fName };
+    fe.init();
 
-            // start keylistener
-        }
-    );
-
+    std::vector<Data::Table> output = fe.getOutput();
+    
+    std::thread listenerThread([output = std::move(output)]() mutable {
+        KeyListener kl{ output };
+        kl.run();
+    });
+    listenerThread.detach();
 
     QApplication app(argc, argv);
     PixelSearchProject window;
     window.show();
+
     return app.exec();
 }

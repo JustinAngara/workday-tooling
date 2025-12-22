@@ -11,6 +11,7 @@ public:
 	bool init(); 
 	void parseFile(std::ifstream& file);
 	void processBlock(const std::vector<std::string>& block);
+	std::vector<Data::Table> getOutput() { return m_output; }
 
 private:
 	std::vector<Data::Table> m_output; 
